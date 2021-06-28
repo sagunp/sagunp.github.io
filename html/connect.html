@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Sagun's Contact</title>
+  </head>
+
+    <body class = "body" ng-app = 'body'>
+    <!--navbar-->
+        <nav-bar></nav-bar>
+        <!--Contact-->
+        <div class = "row">
+            <div class = "col-5">
+                <div class ="container"  style = "text-align: center;">
+                    <br>
+                    <h2 class ="nearhr">Contact</h2>
+                    <hr>
+                    <p>
+                        Sagun lives in Springfield, IL and can relocate for employment.
+                        You can send him a message through this form or reach out on social media.  
+                    </p>
+
+                    <figure class = "figure"> 
+                        <img  class = "img-fluid rounded" style = "margin : auto" src = "../images/contactpic.jpg" alt = "Sagun's picture">
+                    </figure>
+                    
+                </div>
+            </div>
+            <div class = "col-7 d-flex align-items-center">
+                <div class = "container">
+                    <div class = "contact">
+                        <h2 class = "nearhr">Send a message</h2>
+                    </div> 
+                    <form class = "form">
+                        <div class = "form-group">
+                            <label for ="name">Name: </label>
+                            <input type = "name" id = "name" placeholder = "Jane Doe" class = "form-control">
+                        </div>
+                        <div class = "form-group">
+                            <label for ="email">Email: </label>
+                            <input type = "email" id = "email" placeholder = "jane@example.com" class = "form-control">
+                        </div>
+                        <div class = "form-group">
+                            <label for ="subject">Subject: </label>
+                            <input type = "name" id = "subject" placeholder = "Subject Line" class = "form-control">
+                        </div>
+                        <div class = "form-group">
+                            <label for ="message">Message: </label>
+                            <textarea type = "message" id = "message" placeholder = "Message..." class = "form-control"></textarea>
+                        </div>
+                    </form>
+                    <div class = "d-flex justify-content-end">
+                        <button class ="btn btn-primary"  type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class = "row">
+            <div class = "col">
+                <div class = "container">
+                    <div class = "contact">
+                        <h3>Connect through social media</h3>
+                        <br>
+                    </div> 
+                    <div class = "media">
+                        <div class = "btn-group">
+                            <a type="button" href = "https://www.linkedin.com/in/sagun-pandit-2a3ba2206/" target = "_blank" class="btn btn-primary"><linked-in></linked-in> LinkedIn</a>
+                        </div>
+        
+                        <div class = "btn-group">
+                            <a type="button" href = "https://github.com/asymptotically-complex" target = "_blank" class="btn btn-dark"><git-hub></git-hub> Github</a>
+                        </div>
+        
+                        <div class = "btn-group">
+                            <a type="button" href = "https://twitter.com/sagun_pandit" target = "_blank" class="btn btn-primary"><twi-tter></twi-tter> Twitter</a>
+                        </div>
+        
+                        <div class = "btn-group">
+                            <button type="button" id = "discordbutton" class="btn btn-dark" data-placement="bottom"
+                            title="Discord" data-content="Please search for sagunp#2363 on Discord"><dis-cord></dis-cord> Discord</button>
+                            
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        <!--Modules-->
+        <script src = "../js/body.js"></script>
+        <script src = "../js/jquery.js"></script>
+        <!--Directives-->
+        <script src = "../js/directives/navbar.js"></script>
+        <script src = "../js/directives/icons.js"></script>
+
+    </body>
+</html>

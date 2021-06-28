@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <title>Sagun's Profile</title>
+  </head>
+
+    <body class = "body" ng-app = "body" >
+        <!--Nav Bar Setup-->
+        <nav-bar></nav-bar>
+
+        <!--Introduction-->
+        <div class = "container-fluid">
+            <div class = "row">
+                <div class = "col-8 d-flex align-items-center">
+                    <div class = "intro">
+                        <div class="jumbotron">
+                            <h1 class = "heading" ng-controller = "welcome">{{header}}</h1>
+                            <p class="lead" style = "font-size:xx-large">My name is Sagun Pandit. I am a rising CS junior at </p>
+                            <p class="lead" style = "font-size:xx-large">University of Illinois at Springfield.</p>
+                            <hr class="my-4">
+                            <p style="font-size:large">I am passionate about
+                                writing programs that run cheaply and need minimum refactoring. 
+                                My favorite hobbies include art criticism, biking, hiking, and building awesome websites.
+                                I am currently bootstrapping
+                                for a small-scale marketing project. You can check out my progress <a href = "#">here</a>. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col-4" style = "text-align: center;">
+                    <figure>
+                        <img  class = "img-fluid" style = "width: 95%" src = "../images/20210603_151644.jpg" alt = "Sagun's picture">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Imports-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <!--Modules-->
+        <script src = "../js/body.js"></script>
+        <!--controllers-->
+        <script src = "../js/controllers/welcome.js"></script>
+        <!--Directives-->
+        <script src = "../js/directives/navbar.js"></script>
+    </body>
+</html>

@@ -1,0 +1,154 @@
+<!--Resume-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <title>Sagun's Resume</title>
+  </head>
+
+  <body class = "body" ng-app = 'body'>
+    <!--Nav Bar Setup-->
+    <nav-bar></nav-bar>
+    <br>
+    <div class = "container" style = "text-align: right;margin-right:4%;">
+      <a class = "btn btn-dark" role = "button" href = "../files/Pandit_S_Resume.pdf" download = "Pandit_S_Resume"><down-load></down-load> Download as PDF </a>
+    </div>
+    
+    <div class = "resume">
+      <div class = "resumeintro row">
+        <div class = "resumeAddress col-4">
+          <p class = "nearhr">1349 S Glenwood Avenue</p>
+          <p class = "nearhr">Illinois IL 62704</p>
+        </div>
+        <div class = "resumeName col-4">
+          <p>Sagun Pandit</p>
+        </div>
+        <div class = "resumeContact col-4">
+          <p class = "nearhr">(217) 761-8648</p>
+          <p class = "nearhr">Spand7@uis.edu</p>
+        </div>
+      </div>
+      <br>
+
+      <div class = "resumeEmployment">
+        <p class = "nearhr"><b>Employment</b></p>
+        <hr>
+
+        <div class = row>
+          <div class = "resumePost col-4">
+            <p><b>Student Union</b></p>
+          </div>
+          <div class = "resumeEmployer col-4">
+            <p>University of Illinois -Springfield</p>
+          </div>
+          <div class = "resumeDate col-4">
+            <p>Spring 2020 - Spring 2021</p>
+          </div>
+        </div> 
+
+        <div class = "points">
+          <p class = "nearhr"><b>Student Lead</b></p>
+          <ul>
+            <li>Provided technical assistance and setup for various student-led events held at the Student Union.</li>
+            <li>Collaborated with the StuCrew to prevent COVID incidences inside the campus by providing safe and socially distant
+              spaces for in-person learning and socialization.</li>
+            <li>Helped outside visitors around the union, answered calls from other departments, maintained logs of lost and found,
+              and carried out duties as directed by the supervisor.</li>
+          </ul>
+        </div>
+      </div> 
+
+      <div class = "resumeEducation">
+        <p class = "nearhr"><b>Education</b></p>
+        <hr>
+
+        <div class = "row">
+          <div class = "resumePlace col-4">
+            <p><b>Springfield, IL</b></p>
+          </div>
+          <div class = "resumeSchool col-4">
+            <p>University of Illinois -Springfield</p>
+          </div>
+          <div class = "resumeDate col-4">
+            <p>Fall 2019 - Present</p>
+          </div>
+        </div>
+        
+        <div class = "points">
+          <ul>
+            <li>Rising junior in B.Sc. Computer Science. Current CGPA: 4.0.</li>
+            <li>Distinguished Academic Performance: Capital Scholar Honors student, recipient of full ride college scholarship, Dean’s
+              list Fall 2019, Spring 2020, Fall 2020, and Spring 2021.</li>
+            <li>Undergraduate Coursework: Computer Programming Concepts I & II, Data Structures and Algorithms, Discrete
+              Mathematics, Applied Statistics, Calculus I.</li>
+            <li>Self-Guided Learning: Machine Learning (Coursera), Deep Learning Specialization (deeplearning.ai), Machine Learning
+              Crash Course (Google).</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class = "resumeExperience">
+        <p class = "nearhr"><b>Technical Experience</b></p>
+        <hr>
+        <p class = "nearhr"><b>Projects</b></p>
+        <div class = "points">
+          <ul>
+            <li>Ant Colony Simulator (2021). Used Java OOP to simulate an ant colony complete with random initial food distribution,
+              egg-laying queen ant, food foraging forager ants, soldier ants, and offensive bullet ants. Java*.</li>
+            <li>Common Elements (2021). Designed Java algorithm to find common elements from given k collections without using
+              complex data structures while optimizing for n(k-1) comparisons (least no. of comparisons possible). Java*</li>
+            <li>Flower Classification Model (2020). Implemented an ML model to classify types of Iris flowers with 97 % accuracy by
+              using SVC and training on Anderson’s Iris data set. Python, NumPy, Pandas*. </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class = "resumeLeadership">
+        <p class = "nearhr"><b>Leadership Experience</b></p>
+        <hr>
+        
+        <div class = "points">
+          <ul>
+            <li><b>PiE Tutor (2017 – 2018):</b> Helped under-privileged community school students learn develop passion in math and
+              sciences including computer programming.</li>
+            <li><b>Treasurer (2017 – 2019):</b> Treasurer of Mathematica club in high school, secured funding equating $5000 from
+              independent outside sponsors and helped organize two inter-school math hunt competitions.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class = "resumeLanguages">
+        <p class = "nearhr"><b>Languages and Technologies</b></p>
+        <hr>
+        <div class = "points">
+          <ul>
+            <li>Java (proficient); Python (familiar); Javascript (learning);</li>
+            <li>Git; Eclipse; Jupyter; GoogleColabs</li>
+          </ul>
+        </div>
+      </div>
+
+      <p>*code available on GitHub.(https://github.com/asymptotically-complex)</p>
+    </div>
+
+    <!--Resume-->
+    <br><br>
+    <br>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--Modules-->
+    <script src = "../js/body.js"></script>
+    <!--Directives-->
+    <script src = "../js/directives/navbar.js"></script>
+    <script src = "../js/directives/icons.js"></script>
+    </body>
+</html>
