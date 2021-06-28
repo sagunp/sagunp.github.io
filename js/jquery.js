@@ -1,3 +1,3 @@
-var popover = new bootstrap.Popover(document.querySelector('#discordbutton'), {
-    trigger:'focus'
-  });
+$(window).on('resize', function(){
+    $('.navbar-expand-sm').toggleClass('sticky-top', $(window).width() > 582);
+});
