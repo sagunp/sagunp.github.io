@@ -10,20 +10,21 @@ nav{
 }
 .nav-item{
     align-items:center;
-    font-size:medium;
+    font-size:min(2vw, medium);
     margin-left:1.5rem;
     margin-right:1.5rem;
     color: white;
+}
+.nav-link{
+    color:rgba(238, 231, 231, 0.945);
+    padding:0.1rem;
 }
 
 .jumbotron{
     color:rgba(212, 227, 243, 0.938);
     background:#312d2df1;
 }
-.nav-link{
-    color:rgba(238, 231, 231, 0.945);
-    padding:0.1rem;
-}
+
 a:hover{
     color:black;
 }
