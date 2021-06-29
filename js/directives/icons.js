@@ -23,8 +23,3 @@ body.directive("downLoad", function(){
         templateUrl:'../svgs/download.svg'
     };
 });
-body.directive("hamburgerMenu", function(){
-    return{
-        templateUrl:'../svgs/hamburgermenu.svg'
-    };
-});
