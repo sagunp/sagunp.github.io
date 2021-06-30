@@ -19,8 +19,14 @@
 
         <!--Introduction-->
         <div class = "container-fluid">
-            <div class = "row">
-                <div class = "col-8 d-flex align-items-center">
+            <div class = "row d-flex justify-content-center">
+                <div class = "col-8 col-md-4 order-md-2" style = "text-align: center;">
+                    <figure>
+                        <img  class = "img-fluid" style = "width: 95%" src = "../images/20210603_151644.jpg" alt = "Sagun's picture">
+                    </figure>
+                </div>
+
+                <div class = "col-md-8 order-md-1 d-flex align-items-center">
                     <div class = "intro">
                         <div class="jumbotron">
                             <p style = "font-size:max(3vw, 1.15rem)" ng-controller = "welcome">{{header}}</p>
@@ -35,12 +41,6 @@
                             </p>
                         </div>
                     </div>
-                </div>
-
-                <div class = "col-4" style = "text-align: center;">
-                    <figure>
-                        <img  class = "img-fluid" style = "width: 95%" src = "../images/20210603_151644.jpg" alt = "Sagun's picture">
-                    </figure>
                 </div>
             </div>
         </div>
