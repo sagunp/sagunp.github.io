@@ -20,14 +20,14 @@
     <!--Projects-->
     
       <div class = "row d-flex" id = "panel" style = "margin:5px">
-          <a type = "button" class = "btn btn-dark mr-auto nav-item" onclick='randomize()' id = "randomizeB">Randomize</a>
+          <a type = "button" class = "btn btn-dark mr-auto nav-item" onclick='randomizeS()' id = "randomizeB">Randomize</a>
   
           <a type = "button" class = "btn btn-dark col-md-1" id = "countingB">Counting</a>
           <a type = "button" class = "btn btn-dark col-md-1" id = "heapB">Heap</a>
           <a type = "button" class = "btn btn-dark col-md-1"  id = "mergeB">Merge</a>
           <a type = "button" class = "btn btn-dark col-md-1" id = "quickB">Quick</a>
           <a type = "button" class = "btn btn-dark col-md-1" id = "insertionB">Insertion</a>
-          <a type = "button" class = "btn btn-dark col-md-1" id = "selectionB">Selection</a>
+          <a type = "button" class = "btn btn-dark col-md-1" id = "selectionB" onclick="runSelectionSort()">Selection</a>
           <a type = "button" class = "btn btn-dark col-md-1" id = "bubbleB" onclick = "runBubbleSort()">Bubble</a>
       </div>
       <hr>
@@ -37,8 +37,8 @@
 
       <br>
       <div class = "container d-flex justify-content-around">
-        <div><b>Array Accesses: </b><b><p id = "arraycount"></p></b></div>
         <div><b>Comparisions: </b><b><p id = "comparisions"></p></b></div>
+        <div><b>Array Accesses: </b><b><p id = "arraycount"></p></b></div>
       </div>
       
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -49,6 +49,7 @@
     <script src = "../js/jquery.js"></script>
     <script src = "../js/sorting/controller.js"></script>
     <script src = "../js/sorting/bubblesort.js"></script>
+    <script src = "../js/sorting/selectionsort.js"></script>
     <!--Directives-->
     <script src = "../js/directives/navbar.js"></script>
     <script src = "../js/directives/icons.js"></script>

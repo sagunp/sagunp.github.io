@@ -13,6 +13,13 @@ function swap(a, b){
     a.style.height = b.style.height;
     b.style.height = x;
 }
+function randomizeS(){
+    if(document.getElementById("randomizeB").disabled){
+        alert("Sort algorithm is running, please wait or refresh the page to terminate.")
+    }else{
+        randomize();
+    }
+}
 
 function randomize(){
     clearContainer();
@@ -36,6 +43,7 @@ function clearContainer(){
 
 
 function disableContainer(){
+    document.getElementById("randomizeB").disabled = true;
     document.getElementById("countingB").disabled = true;
     document.getElementById("heapB").disabled = true;
     document.getElementById("mergeB").disabled = true;
@@ -46,6 +54,7 @@ function disableContainer(){
 }
 
 function enableContainer(){
+    document.getElementById("randomizeB").disabled = false;
     document.getElementById("countingB").disabled = false;
     document.getElementById("heapB").disabled = false;
     document.getElementById("mergeB").disabled = false;
