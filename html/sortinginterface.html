@@ -10,24 +10,29 @@
     <link rel="stylesheet" href="style.css">
     <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 
-    <title>Sagun's Projects</title>
+    <title>Sorting Algorithms</title>
   </head>
 
   <body class = "body" ng-app = 'body'>
     <!--Nav Bar Setup-->
     <nav-bar></nav-bar>
-
+    <br>
     <!--Projects-->
-    <div class = "container" style = "margin-top:3rem;">
-      <div class="card">
-        <img src="../images/sorting.jpg" class="card-img-top" alt="sorting image">
-        <div class="card-body " style = "align-items:center">
-          <h5 class="card-title">Sorting Algorithms</h5>
-          <p class="card-text">Visualizations of popular sorting algorithms like quick-sort, heap-sort, merge-sort, counting-sort, bubble-sort
-            and so on</p>
-          <a href="sortinginterface.html" class="btn btn-dark stretched-link">Checkout</a>
-        </div>
-      </div>
+    <div class = "row d-flex" id = "panel" style = "margin:5px">
+        <a type = "button" class = "btn btn-dark mr-auto nav-item" onclick='randomize()'>Randomize</a>
+
+        <a type = "button" class = "btn btn-dark col-md-1" id = "countingB">Counting</a>
+        <a type = "button" class = "btn btn-dark col-md-1" id = "heapB">Heap</a>
+        <a type = "button" class = "btn btn-dark col-md-1"  id = "mergeB">Merge</a>
+        <a type = "button" class = "btn btn-dark col-md-1" id = "quickB">Quick</a>
+        <a type = "button" class = "btn btn-dark col-md-1" id = "insertionB">Insertion</a>
+        <a type = "button" class = "btn btn-dark col-md-1" id = "selectionB">Selection</a>
+        <a type = "button" class = "btn btn-dark col-md-1" id = "bubbleB">Bubble</a>
+    </div>
+    <hr>
+
+    <div class = "container d-flex justify-content-center align-items-end mt-5" id = "column-container">
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -36,6 +41,7 @@
     <!--Modules-->
     <script src = "../js/body.js"></script>
     <script src = "../js/jquery.js"></script>
+    <script src = "../js/sorting/controller.js"></script>
     <!--Directives-->
     <script src = "../js/directives/navbar.js"></script>
     <script src = "../js/directives/icons.js"></script>
