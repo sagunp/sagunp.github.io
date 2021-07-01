@@ -20,7 +20,7 @@
     <!--Projects-->
     
       <div class = "row d-flex" id = "panel" style = "margin:5px">
-          <a type = "button" class = "btn btn-dark mr-auto nav-item" onclick='randomize()'>Randomize</a>
+          <a type = "button" class = "btn btn-dark mr-auto nav-item" onclick='randomize()' id = "randomizeB">Randomize</a>
   
           <a type = "button" class = "btn btn-dark col-md-1" id = "countingB">Counting</a>
           <a type = "button" class = "btn btn-dark col-md-1" id = "heapB">Heap</a>
@@ -28,7 +28,7 @@
           <a type = "button" class = "btn btn-dark col-md-1" id = "quickB">Quick</a>
           <a type = "button" class = "btn btn-dark col-md-1" id = "insertionB">Insertion</a>
           <a type = "button" class = "btn btn-dark col-md-1" id = "selectionB">Selection</a>
-          <a type = "button" class = "btn btn-dark col-md-1" id = "bubbleB" onclick = 'bubblesort()'>Bubble</a>
+          <a type = "button" class = "btn btn-dark col-md-1" id = "bubbleB" onclick = "runBubbleSort()">Bubble</a>
       </div>
       <hr>
       <div class = "container d-flex justify-content-center align-items-end mt-5" id = "column-container">
@@ -37,8 +37,8 @@
 
       <br>
       <div class = "container d-flex justify-content-around">
-        <div><b>Array Accesses: </b><p id = "arraycount"></p></div>
-        <div><b>Comparisions: </b><p id = "comparisions"></p></div>
+        <div><b>Array Accesses: </b><b><p id = "arraycount"></p></b></div>
+        <div><b>Comparisions: </b><b><p id = "comparisions"></p></b></div>
       </div>
       
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
