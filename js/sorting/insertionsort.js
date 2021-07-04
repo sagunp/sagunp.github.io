@@ -33,6 +33,10 @@ async function insertionsort(){
         updateAccessesAndComparisions(arr, comp);
         bar[j + 1].style.background = "green";
     }
+    for(let x = 59; x >=0; x--){
+        await producing();
+        bar[x].style.background = "rgba(238, 231, 231, 0.945)";
+    }
 }
 
 
