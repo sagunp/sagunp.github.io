@@ -29,6 +29,7 @@ async function partition (bar, left, right){
 
             i++;
             bar[i].style.background = "yellow";
+            bar[j].style.background = "yellow";
             swap(bar[i], bar[j]);
             updateAccessesAndComparisions(quickarr, quickcomp);
             quickarr += 2;

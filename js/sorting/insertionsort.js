@@ -35,6 +35,11 @@ async function insertionsort(){
     }
     for(let x = 59; x >=0; x--){
         await producing();
+        await producing();
+        await producing();
+        await producing();
+        await producing();
+        await producing();
         bar[x].style.background = "rgba(238, 231, 231, 0.945)";
     }
 }

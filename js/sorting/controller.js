@@ -68,6 +68,6 @@ function updateAccessesAndComparisions(arrayAccess, comparisions){
     document.getElementById("arraycount").innerHTML=arrayAccess;
     document.getElementById("comparisions").innerHTML=comparisions;
 }
-let producing = () => new Promise(resolve => setTimeout(resolve, 10));
+let producing = () => new Promise(resolve => setTimeout(resolve, 100));
 
 
