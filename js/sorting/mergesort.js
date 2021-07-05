@@ -44,7 +44,6 @@ async function mergeHalves(bar, left, right){
 
 async function mergesortR(bar, left, right){
     if(left >= right){
-        await producing();
         return;
     }
     let mid = left + Math.floor((right - left)/2);

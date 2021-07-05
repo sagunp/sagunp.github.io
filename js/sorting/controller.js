@@ -25,7 +25,7 @@ function randomize(){
     clearContainer();
 
     for (var i = 0; i < 60; i++){
-        let randomNumber = Math.floor(Math.random() * (400 - 50) + 10);
+        let randomNumber = Math.floor(Math.random() * (380 - 10) + 10);
         var element = document.createElement("div");
         element.classList.add("lines");
         element.setAttribute("id", "bar" + i);
@@ -68,6 +68,6 @@ function updateAccessesAndComparisions(arrayAccess, comparisions){
     document.getElementById("arraycount").innerHTML=arrayAccess;
     document.getElementById("comparisions").innerHTML=comparisions;
 }
-let producing = () => new Promise(resolve => setTimeout(resolve, 100));
+let producing = () => new Promise(resolve => setTimeout(resolve, 10));
 
 
