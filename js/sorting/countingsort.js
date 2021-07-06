@@ -4,8 +4,6 @@ async function countingsort(){
 
     let arrayAccess = 0;
     let comparisions = 0;
-
-    console.log(counting.length);
     
     for (let i = 0; i < bar.length; i++){
 
@@ -13,8 +11,6 @@ async function countingsort(){
         bar[i].style.background = "blue";
         await producing();
         bar[i].style.background = "black";
-
-        console.log("one pass");
 
         counting[parseInt(bar[i].style.height)] += 1;
 
@@ -26,7 +22,6 @@ async function countingsort(){
 
     for(let j = 0; j < counting.length; j++){
         while(counting[j] > 0){
-
             await producing();
             bar[index].style.height = j + "px";
             await producing();  

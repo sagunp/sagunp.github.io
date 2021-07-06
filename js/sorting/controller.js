@@ -13,6 +13,7 @@ function swap(a, b){
     a.style.height = b.style.height;
     b.style.height = x;
 }
+
 function randomizeS(){
     if(document.getElementById("randomizeB").disabled){
         alert("Sort algorithm is running, please wait or refresh the page to terminate.")
@@ -68,6 +69,6 @@ function updateAccessesAndComparisions(arrayAccess, comparisions){
     document.getElementById("arraycount").innerHTML=arrayAccess;
     document.getElementById("comparisions").innerHTML=comparisions;
 }
-let producing = () => new Promise(resolve => setTimeout(resolve, 10));
+let producing = () => new Promise(resolve => setTimeout(resolve, 80 - document.getElementById("customRange1").value));
 
 

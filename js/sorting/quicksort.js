@@ -24,8 +24,6 @@ async function partition (bar, left, right){
 
             await producing();
             await producing();
-            await producing();
-            await producing();
 
             i++;
             bar[i].style.background = "yellow";
@@ -64,9 +62,7 @@ async function quicksortR(bar, left, right){
     
     await producing();
     await producing();
-    await producing();
-    await producing();
-
+    
     await  quicksortR(bar, partitionIndex + 1, right);
 }
 

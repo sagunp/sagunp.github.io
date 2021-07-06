@@ -21,9 +21,10 @@
     
       <div class = "row d-flex" id = "panel" style = "margin:5px">
           <a type = "button" class = "btn btn-dark mr-auto nav-item" onclick='randomizeS()' id = "randomizeB">Randomize</a>
-  
+          <input type = "range" class = "form-range" id = "customRange1" min = "10" max = "70">
+
           <a type = "button" class = "btn btn-dark col-md-1" id = "countingB" onclick = "runCountingSort()">Counting</a>
-          <a type = "button" class = "btn btn-dark col-md-1" id = "heapB">Heap</a>
+          <a type = "button" class = "btn btn-dark col-md-1" id = "heapB" onclick = "runHeapSort()">Heap</a>
           <a type = "button" class = "btn btn-dark col-md-1"  id = "mergeB" onclick="runMergeSort()">Merge</a>
           <a type = "button" class = "btn btn-dark col-md-1" id = "quickB" onclick = "runQuickSort()">Quick</a>
           <a type = "button" class = "btn btn-dark col-md-1" id = "insertionB" onclick= "runInsertionSort()">Insertion</a>
@@ -54,6 +55,7 @@
     <script src = "../js/sorting/quicksort.js"></script>
     <script src = "../js/sorting/mergesort.js"></script>
     <script src = "../js/sorting/countingsort.js"></script>
+    <script src = "../js/sorting/heapsort.js"></script>
     <!--Directives-->
     <script src = "../js/directives/navbar.js"></script>
     <script src = "../js/directives/icons.js"></script>
