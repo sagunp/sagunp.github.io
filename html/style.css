@@ -117,3 +117,14 @@ div.d-flex a.btn-dark{
     margin:2px;
     background: black;
 }
+
+#dropdown{
+    padding:.3rem;
+}
+
+@media (max-width: 767px) {
+    #listuff{
+      width: 100%;
+    }
+  }
+
